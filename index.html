@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <!-- <header class="page-header">
-        <div class="container">
+    <header class="page-header">
+        <div class="container header-container">
         <nav class="header-nav">
             <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
             <ul class="nav-list">
@@ -29,14 +29,28 @@
                 <li class="contacts-item"><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        <button class="burger-btn" type="button" data-menu-open> <svg class="burger-icon" width="24" height="24"> <use href="./images/icons.svg#icon-burger-icon"> </use> </svg></button>
         </div>
-    </header> -->
+        <div class="mob-menu" data-menu>
+            <div class="mob-menu-conteiner container">
+             <button class="mob-menu-close" type="button" data-menu-close> </button>
+             <nav class="mob-nav"> </nav>
+             <address class="mob-address"> </address>
+             <ul class="mob-list">
+                <li class="mob-item"> </li>
+                <li class="mob-item"> </li>
+                <li class="mob-item"> </li>
+                <li class="mob-item"> </li>
+             </ul>
+            </div>
+        </div>
+    </header>
 
     <main class="page-main">
         <!-- <section class="first-section" >
             <div class="container">
             <h1 class="bigest-tital">Effective Solutions for Your Business</h1>
-            <button class="first-button" type="button"><span class="text-button">Order Service</span></button>
+            <button class="first-button" type="button" data-modal-open><span class="text-button">Order Service</span></button>
             </div>
         </section> -->
         <section class="advatages">
@@ -321,9 +335,10 @@
         </div>
     </div>
     </footer> -->
-    <!-- <div class="backdrope">
+    <!-- modal -->
+    <!-- <div class="backdrope" data-modal>
         <div class="modal">
-            <button class="modal-close-btn" type="button"> <svg class="close" width="8" height="8">
+            <button class="modal-close-btn" type="button" data-modal-close> <svg class="close" width="8" height="8">
                     <use href="./images/icons.svg#icon-X"></use>
                 </svg>
             </button>
@@ -375,6 +390,8 @@
             </form>
         </div>
     </div> -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
