@@ -1034,14 +1034,14 @@ flex-basis: calc((100% - 24px) / 2);
 
 /* .footer-soc-wrap {
     /* width: unset; */
-
+/* 
 .footer-subtitle {
-    /* text-align: left; */
-}
+    text-align: left;
+} */
 
-.footer-form {
+/* .footer-form {
     flex-direction: row;
-}
+} */
 .modal {
     width: 408px;
     padding: 72px 24px 24px 24px;
