@@ -43,7 +43,6 @@ a {
 }
 
 .container {
-    width: 100%;
     max-width: 319px;
     padding: 0 16px;
     margin: 0 auto;
@@ -1070,9 +1069,9 @@ flex-basis: calc((100% - 24px) / 2);
 }
 }
 @media screen and (min-width: 768px) and (max-width:1157px) {
-    .section-team .container,
-    .page-footer .container {
-        max-width: 768px;
+    .section-team .conteiner,
+    .page-footer .conteiner {
+        max-width: 550px;
     }
 }
 
