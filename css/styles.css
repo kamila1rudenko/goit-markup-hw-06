@@ -894,7 +894,7 @@ border: 1px solid #fff;
 @media screen and (min-width: 768px) {
 
     .container {
-        min-width: 768px;
+     min-width: 768px;
     }
 
     .advatages-list {
@@ -994,7 +994,7 @@ flex-basis: calc((100% - 24px) / 2);
 .mob-menu {
     display: none;
 }
-    }
+    
 .first-section {
     padding-top: 112px;
     padding-bottom: 112px;
@@ -1047,6 +1047,8 @@ flex-basis: calc((100% - 24px) / 2);
     width: 408px;
     padding: 72px 24px 24px 24px;
 }
+}
+
 @media screen and (max-width: 767px) {
     .footer-logo {
             justify-content: center;
@@ -1069,9 +1071,9 @@ flex-basis: calc((100% - 24px) / 2);
 }
 }
 @media screen and (min-width: 768px) and (max-width:1157px) {
-    .section-team .conteiner,
-    .page-footer .conteiner {
-        max-width: 550px;
+    .section-team .container,
+    .page-footer .container {
+        max-width: 584px;
     }
 }
 
